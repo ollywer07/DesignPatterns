@@ -6,7 +6,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Vitor/Downloads/rsyntaxtextarea-3.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Vitor/Downloads/commons-io-2.8.0/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vsoli/my-workspace/AbstractFactory/src/lib/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vsoli/my-workspace/AbstractFactory/src/lib/rsyntaxtextarea-3.1.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

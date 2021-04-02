@@ -1,3 +1,6 @@
+import Interfaces.IBuilder;
+import Interfaces.IFactory;
+
 public class JavaFactory implements IFactory {
 
 	@Override

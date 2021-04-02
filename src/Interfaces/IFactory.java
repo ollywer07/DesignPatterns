@@ -1,3 +1,4 @@
+package Interfaces;
 import javax.swing.JFrame;
 
 public interface IFactory {

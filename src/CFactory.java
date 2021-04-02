@@ -1,5 +1,8 @@
 import javax.swing.JFrame;
 
+import Interfaces.IBuilder;
+import Interfaces.IFactory;
+
 public class CFactory implements IFactory{
 
 	@Override
