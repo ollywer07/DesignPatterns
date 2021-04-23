@@ -3,7 +3,10 @@ import javax.swing.JFrame;
 import Interfaces.IBuilder;
 import Interfaces.IFactory;
 
-public class CFactory implements IFactory{
+public class CFactory  implements IFactory{
+	public static IFactory instance = null;
+	
+	private CFactory(){}
 
 	@Override
 	public String suportedExtension() {
@@ -16,5 +19,13 @@ public class CFactory implements IFactory{
 	@Override
 	public JFrame createSyntaxHighlither(String text) {
 		return new CSyntaxHighlighter(text);
+	}
+
+	public static IFactory getInstance() {
+
+		if(instance == null) {
+			instance = new CFactory();
+		}
+		return instance;
 	}
 }

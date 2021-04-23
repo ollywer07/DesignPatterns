@@ -8,5 +8,7 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/vsoli/my-workspace/AbstractFactory/src/lib/commons-io-2.8.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vsoli/my-workspace/AbstractFactory/src/lib/rsyntaxtextarea-3.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vsoli/Downloads/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vsoli/my-workspace/AbstractFactory2/src/lib/json-simple-1.1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

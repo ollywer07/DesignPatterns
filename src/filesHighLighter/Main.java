@@ -81,7 +81,7 @@ public class Main {
 
 				      if (op != 0 && op != i+1) {
 				    	  jsonObject = (JSONObject) parser.parse(new FileReader(
-									 new File("src").getCanonicalPath() +"\\JSONPathFile.json"));
+									 new File("src").getCanonicalPath() +"\\caminho.json"));
 
 						  String path = (String) jsonObject.get("caminhoArquivo");
 						  String fileExtension = FilenameUtils.getExtension(path);
